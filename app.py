@@ -10,7 +10,7 @@ st.title("DISASTER OR NO DISASTER NLP CLASSIFICATION")
 st.write("")
 val = st.text_input("Your sentence")
 
-df = pd.read_csv("/Users/atharvgupta/streamlit/train.csv")
+df = pd.read_csv("train.csv")
 X = df["text"]
 y = df["target"]
 
